@@ -34,6 +34,7 @@ drm.service.enabled=1
 vidc.enc.narrow.searchrange=1
 
 # Perf
+ro.am.reschedule_service=true
 ro.config.max_starting_bg=8
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.core_ctl_min_cpu=0
