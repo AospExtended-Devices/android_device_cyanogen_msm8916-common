@@ -19,6 +19,12 @@ ro.qualcomm.bt.hci_transport=smd
 # CPU frequency
 ro.min_freq_0=800000
 
+# Dex2oat optimisation
+dalvik.vm.boot-dex2oat-threads=8
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-threads=4
+ro.sys.fw.dex2oat_thread_count=4
+
 # Display
 debug.hwui.use_buffer_age=false
 debug.composition.type=c2d
